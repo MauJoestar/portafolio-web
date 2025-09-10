@@ -1,5 +1,4 @@
 
-
 export interface Skill {
   name: string
   icon: string
@@ -9,3 +8,10 @@ export interface Skill {
   percent: number
 }
 
+export interface Project{
+  url:string
+  title:string
+  description:string
+  icon:string
+  iconClass:string
+}
